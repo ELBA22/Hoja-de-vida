@@ -1,0 +1,144 @@
+*{
+    list-style: none;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif, ;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Perfil-profesional{
+    margin: 20px;
+    padding: 10px;
+}
+.titulo-habilidades{
+    margin: 20px;
+    padding: 10px;
+}
+.titulo-proyectos{
+    margin: 20px;
+    padding: 10px;
+}
+.titulo-logros{
+    margin: 20px;
+    padding: 10px;
+}
+.Titulo-idiomas{
+    margin: 20px;
+    padding: 10px;
+}
+.Titulo-estudios{
+    margin: 20px;
+    padding: 10px;
+}
+.Titulo-experiencia{
+    margin: 20px;
+    padding: 10px;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.padre{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            350px,1fr
+        )
+    );
+    gap: 15px;
+}
+.container1,
+.container2,
+.container3{
+    background-color: #c0c0c0;
+    min-width: 60vh;
+}
+.container1{
+    display: grid;  
+    gap: 20px;
+    padding: 20px;
+}
+.Perfil{
+    display: grid;
+    gap: 20px;
+}
+.container1 img{
+    width: 300px;
+    border-radius: 20px; 
+    display: flex;
+    margin: 0 auto;
+}
+
+.perfilProfesional{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: #121212;
+}
+
+.container1 ul{
+    text-align: center;
+    margin: 5px;
+    color: #121212;}
+
+.container1 p{
+    color: #121212;
+    margin-right: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container2{
+    gap: 20px;
+    padding: 20px;
+}
+.container2 h1{
+    font-size: 20px;
+    text-align: justify;
+    margin: 0;
+    color: #121212;
+}
+.container2 ul{
+    text-align: justify;
+    margin: 10px;
+    color: #121212;
+}
+.container2 p{
+    color: #121212;
+    margin-right: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.container3{
+    gap: 20px;
+    padding: 20px;
+}
+.container3 h1{
+    font-size: 20px;
+    text-align: justify;
+    margin: 0;
+    color: #121212;
+}
+.container3 ul{
+    text-align: justify;
+    margin: 10px;
+    color: #121212;
+}
+.container3 p{
+    color: #121212;
+    margin-right: 10px;
+    margin: 10px;
+    padding: 10px;
+}
